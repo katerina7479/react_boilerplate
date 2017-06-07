@@ -9,6 +9,8 @@ module.exports = {
     alias: {
       Main: 'app/components/Main.jsx',
       Navigation: 'app/components/Navigation.jsx',
+      PageOne: 'app/components/PageOne.jsx',
+      PageTwo: 'app/components/PageTwo.jsx',
     },
     extensions: ['','.js','.jsx'],
   },
