@@ -1,15 +1,15 @@
 
 
-init:
+init: clean
 	npm install
 
 clean:
 	rm -rf node-modules
 
 watch:
-	webpack -w
+	NODE_ENV=dev webpack -w
 
 serve:
 	node server.js
 
-
+.PHONY: init clean watch serve
