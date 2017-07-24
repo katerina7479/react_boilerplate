@@ -1,9 +1,9 @@
 var webpack = require('webpack')
+var path = require('path')
 
 if (process.env.NODE_ENV == 'dev') {
   require('dotenv').config();
 }
-
 
 //Plugins
 var env_plugin = new webpack.DefinePlugin({
